@@ -1,0 +1,67 @@
+[28-Nov-2015 19:23:39 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/index.php on line 3
+[28-Nov-2015 19:23:39 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/index.php on line 3
+[28-Nov-2015 19:23:39 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/index.php on line 3
+[28-Nov-2015 19:24:57 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/index.php on line 3
+[28-Nov-2015 19:24:57 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/index.php on line 3
+[28-Nov-2015 19:24:57 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/index.php on line 3
+[04-Dec-2015 14:58:03 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 14:58:16 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:00:31 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:00:38 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:01:27 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:02:19 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:02:27 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:05:42 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:05:48 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:05:52 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:07:28 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:07:32 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:11:44 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:11:44 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:11:44 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:11:47 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:11:47 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:11:47 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:14:35 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:14:35 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:14:35 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:14:40 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:14:40 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:14:40 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:18:23 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:18:23 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:18:23 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:18:27 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:18:27 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:18:27 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:19:52 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:19:52 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:19:52 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:25:16 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:25:16 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:25:16 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:25:42 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:25:42 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:25:42 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:25:46 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:25:46 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 15:25:46 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 17:44:34 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 17:44:34 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 17:44:34 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 17:48:12 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 17:48:12 America/New_York] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 17:48:12 America/New_York] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 3
+[04-Dec-2015 17:49:33 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 57
+[04-Dec-2015 17:53:33 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 57
+[04-Dec-2015 17:58:51 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 57
+[04-Dec-2015 17:59:46 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 57
+[04-Dec-2015 18:01:07 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 57
+[04-Dec-2015 18:05:07 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 57
+[04-Dec-2015 18:08:53 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 57
+[04-Dec-2015 18:12:55 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 56
+[04-Dec-2015 18:16:04 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 49
+[04-Dec-2015 19:00:09 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 49
+[04-Dec-2015 19:00:09 America/New_York] PHP Warning:  Division by zero in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 58
+[04-Dec-2015 19:27:04 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 49
+[04-Dec-2015 19:27:04 America/New_York] PHP Warning:  Division by zero in /home/nerdiieq/public_html/strictlyunique/api/review.php on line 58

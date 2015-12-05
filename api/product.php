@@ -12,7 +12,9 @@
 		'thumb' => $myrow['image_sm'],
 		'name' => $myrow['name'],
 		'price' => $myrow['price'],
-		'description' => $myrow['desc_long']
+		'description' => $myrow['desc_long'],
+		"reviews" => $myrow['reviews'],
+		"rating" => round($myrow['rating'], 2),
 		);
 
 	echo json_encode(array('product' => $product) );

@@ -12,7 +12,9 @@
 			"id" => $myrow['id'],
 			"name" => $myrow['name'],
 			"price" => $myrow['price'],
-			"excerpt" => $myrow['desc_short']
+			"excerpt" => $myrow['desc_short'],
+			"reviews" => $myrow['reviews'],
+			"rating" => round($myrow['rating'], 2),
 			);
 	};
 

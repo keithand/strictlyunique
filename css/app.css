@@ -141,12 +141,18 @@ body{
 	margin-top:120px;
 }
 
+.content h3{
+	margin-top:40px;
+	text-decoration:underline;
+}
+
 .item{
 	display:block;
 	width:200px;
 	margin:40px;
 	background-color: rgba(255,255,255,0.6);
 	padding-top: 40px;
+	padding-bottom: 20px;
 	box-shadow: 5px 5px 30px #111;
 }
 .item img{
@@ -160,8 +166,7 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top: 5px;
-	margin-bottom: 5px;
-	padding-bottom: 20px;
+	margin-bottom: 0;
 }
 
 hr{
@@ -198,3 +203,58 @@ h1{
 	width:100%;
 	box-shadow: 5px 5px 30px #111;
 }
+
+/******************
+* REVIEWS
+********************/
+
+
+.rating{
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+
+.rating > option:hover:before,
+.rating > option:hover ~ option:before {
+	content:"\2605";
+	position:absolute;
+}
+
+.review_item{
+	background-color:#C0C048;
+	padding:10px;
+	margin:10px;
+	box-shadow: 5px 5px 30px #111;
+}
+
+.review_item p {
+	text-align:center;
+}
+
+.form {
+	margin-top:40px;
+	margin-bottom:20px;
+	padding:30px;
+	background-color: rgba(255,255,255,0.4);
+	box-shadow: 5px 5px 30px #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
