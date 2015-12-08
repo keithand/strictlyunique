@@ -27,7 +27,7 @@ var catalogMarkup = "<div class='content large-12 columns'>" +
 							"<img src='images/${product.thumbnail}' />" +
 							"<p><a href='#product?id=${product.id}'>${product.name}</a></p>" +
 							"<p>\$${product.price}</p>" +
-							"<p>Reviews: ${product.reviews}</p> <p>rating: ${product.rating}</p>" +
+							"<p>Reviews: ${product.reviews}</p> <p>rating: ${product.rating} </p>" +
 						"</div>" +
 						"{{/each}}" +
 					"</div>";
@@ -66,6 +66,20 @@ var reviewMarkup = "" +
 						"<p>${item.review}</p>" +
 					"</div>" +
 					"{{/each}}";
+
+var ratingDisplay = function(rating){
+	if(rating == 5 ){
+		"<span class='rating'>☆☆☆☆☆</span>"
+	} else if(rating == 4){
+		"<span class='rating'>☆☆☆☆</span>"
+	} else if (rating == 3){
+		"<span class='rating'>☆☆☆</span>"
+	} else if (rating == 2){
+		"<span class='rating'>☆☆</span>"
+	} else {
+		"<span class='rating'>☆</span>"
+	}
+};
 
 //register the cataog markups as catalog templates in jQuery templates system
 $.template("reviewTemplate", reviewMarkup);

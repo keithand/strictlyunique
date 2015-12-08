@@ -14,7 +14,7 @@
 			"price" => $myrow['price'],
 			"excerpt" => $myrow['desc_short'],
 			"reviews" => $myrow['reviews'],
-			"rating" => round($myrow['rating'], 2),
+			"rating" => round($myrow['ratings'], 2),
 			);
 	};
 

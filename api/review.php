@@ -18,7 +18,7 @@
 		$name = escape_data($_POST['name']);
 		$review = escape_data($_POST['review']);
 		$rating = escape_data($_POST['rating']);
-		$cat_id = escape_data($_POST['cat_id']);
+		$cat_id = $_POST['cat_id'];
 
 		$returnMsg = array();
 
@@ -26,8 +26,8 @@
 
 		//this code asses a new review to the reviews table
 
-		$sql = "INSERT INTO reviews (id, name, review, rating, date)
-		VALUES ('', '$name', '$review', '$rating', NOW() )";
+		$sql = "INSERT INTO reviews (id, name, review, rating, cat_id, date)
+		VALUES ('', '$name', '$review', '$rating', '$cat_id', NOW() )";
 
 		$result = mysql_query($sql);
 

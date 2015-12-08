@@ -8,6 +8,7 @@
 	$myrow = mysql_fetch_array($result);
 
 	$product = array(
+		'id' => $myrow['id'],
 		'image' => $myrow['image_lg'],
 		'thumb' => $myrow['image_sm'],
 		'name' => $myrow['name'],
