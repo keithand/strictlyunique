@@ -1,10 +1,21 @@
+//Initiate foundation framework
 $(document).foundation();
+
+//Initiate facebook like and share button
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1159867664031151";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
 
 //create main page markup
 var mainMarkup = "<div class='content large-12 columns'>" +
-					"<h1>Welcome!</h1>" +
-					"<div id='homeBanner' class='row large-12 columns'></div>" +
-					"<h3>Our Latest Products</h3>" +
+					"<div id='homeBanner' class='large-12 columns'>" +
+						"<img src='images/banner.png' />" +
+					"</div>" +
 					"{{each(i, product) catalog}}" +
 						"<div class='item large-4 columns'>" +
 						"<a href='#product?id=${product.id}'>" +
@@ -15,7 +26,6 @@ var mainMarkup = "<div class='content large-12 columns'>" +
 						"</a>" +
 						"</div>" +
 						"{{/each}}" +
-						"<hr>" +
 					"</div>";
 
 //Create the Catalog Markups
@@ -37,8 +47,9 @@ var productMarkup = "<h1>${product.name}</h1>" +
 					"<div class='content large-16 columns'>" +
 						"<div class='single-item large-16 columns'>" +
 							"<img src='images/${product.image}' class='product-large'/>" +
-							"<div class='product-description'><p><a href='${product.name}'>${product.name}</a></p>" +
-							"<p>\$${product.price}</p>" +
+							"<div class='product-description'><p class='product-name'><a href='${product.name}'>${product.name}</a></p>" +
+							"<div class='fb-like' data-href='http://nerdyowl.co/strictlyunique' data-layout='button' data-action='like' data-show-faces='false' data-share='true'></div>" +
+							"<p class='price-product'>\$${product.price}</p>" +
 							"<p>${product.description}</p></div>" +
 						"</div>" +
 							"<form action='' method='post' class='form large-16 columns'>" +
@@ -81,11 +92,28 @@ var ratingDisplay = function(rating){
 	}
 };
 
+//create main page markup
+var aboutMarkup = "<div class='content large-12 columns'>" +
+					"<h1>About Us</h1>" +
+						"<div class='aboutrow'>" +
+							"<div class='large-6 columns'>" +
+							"<h5>Why Strictly Unique?</h5>" +
+							"<p>We support designers. Everything we sell is authentic and has a story.</p>" + 
+							"<p>Everything we sell is a little bit bizarre. We only sell special things. Things with heart. Things made by human hands or dreamt up in a makers mind.</p>" +
+							"</div>" +
+							"<div class='large-6 columns'>" +
+								"<img src='images/storefront.png' />" +
+							"</div>" +
+						"</div>" +
+					"</div>";
+
 //register the cataog markups as catalog templates in jQuery templates system
 $.template("reviewTemplate", reviewMarkup);
 $.template("catalogTemplate", catalogMarkup);
 $.template("mainTemplate", mainMarkup);
 $.template("productTemplate", productMarkup);
+
+
 
 var showReviews = function(params){
 	$.ajax({
@@ -111,6 +139,7 @@ var showCatalog = function(){
 		$.tmpl("catalogTemplate", data).appendTo('#main');
 	}).fail(function(jqXHR, textStatus, errorThrown){
 		$('#main').html('Sorry! We are having an issue with our servers. Please try again later.');
+		console.log(jqXHR);
 	});
 };
 
@@ -123,6 +152,7 @@ var showHtmlContent = function(){
 		$.tmpl('mainTemplate', data).appendTo('#main');
 	}).fail(function(textStatus, errorThrown, jqXHR){
 		$('#main').html('Sorry! We are having an issue with our servers. Please try again later.');
+		console.log(jqXHR);
 	});
 };
 
@@ -138,6 +168,7 @@ var showProduct = function(params){
 		addClickEventForReviewForm();
 	}).fail(function(jqXHR, textStatus, errorThrown){
 		$('#main').html('Sorry! We are having an issue with our servers. Please try again later.');
+		console.log(jqXHR);
 	});
 };
 
@@ -213,14 +244,20 @@ $(window).on("hashchange", function(){
 		//load catalog page
 		showCatalog();
 	} else if (newLocation.selector == '#about'){
+		$('#main').empty();
+		$('#main').html(aboutMarkup);
 		$(document).find('title').html('About Us');
-
-		//load about us page
-		showAbout();
+		
 	} else if(newLocation.selector =='#product'){
 		$(document).find('title').html('Product');
 		showProduct(newLocation.params);
-	} else {
+	} 
+	// else if (newLocation.selector == '#location'){
+	// 	$('#main').empty();
+	// 	$(this).html(locationMarkup);
+	// 	location();
+	// } 
+	else {
 		$(document).find('title').html('Home');
 		//load homepage
 		showHtmlContent('home.html');

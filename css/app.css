@@ -1,5 +1,5 @@
 body{
-	background-color:#901C6B;
+	background-color:#F6F5F1;
 }
 
 #container{
@@ -17,7 +17,7 @@ body{
 	position:fixed;
 	top:0;
 	left:0;
-	background-color:#eee;
+	background-color:#F6F5F1;
 	min-width:100%;
 }
 
@@ -153,7 +153,6 @@ body{
 	background-color: rgba(255,255,255,0.6);
 	padding-top: 40px;
 	padding-bottom: 20px;
-	box-shadow: 5px 5px 30px #111;
 }
 .item img{
 	float:left;
@@ -169,22 +168,26 @@ body{
 	margin-bottom: 0;
 }
 
-hr{
-	clear:both;
-	border:1px groove #fff;
-}
-
 .single-item{
 	width:100%;
 }
 
 h1{
-	background-color: #C0C048;
 	margin-top: -10px;
 	text-align: center;
-	padding-bottom: 30px;
 	padding-top: 20px;
-	box-shadow: 0 5px 50px 2px #111;
+	font-size:1.4em;
+	text-transform:uppercase;
+}
+
+/******************
+* ABOUT US
+********************/
+
+.aboutrow{
+	background-color: rgba(255,255,255,0.6);
+	padding: 30px;
+	height:300px;
 }
 
 /******************
@@ -193,7 +196,6 @@ h1{
 
 .product-large{
 	margin-top: 50px;
-	box-shadow: 5px 5px 30px #111;
 }
 
 .product-description{
@@ -201,7 +203,19 @@ h1{
 	margin-top: 30px;
 	padding: 10px;
 	width:100%;
-	box-shadow: 5px 5px 30px #111;
+}
+
+.price-product{
+	display:block;
+	clear:both;
+	margin-top:-10px;
+}
+
+.product-name{
+	margin-right:5%;
+	float:left;
+	display:block;
+	margin-top:3px;
 }
 
 /******************
@@ -224,7 +238,6 @@ h1{
 	background-color:#C0C048;
 	padding:10px;
 	margin:10px;
-	box-shadow: 5px 5px 30px #111;
 }
 
 .review_item p {
@@ -236,7 +249,6 @@ h1{
 	margin-bottom:20px;
 	padding:30px;
 	background-color: rgba(255,255,255,0.4);
-	box-shadow: 5px 5px 30px #111;
 }
 
 
